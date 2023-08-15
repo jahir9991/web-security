@@ -1,0 +1,16 @@
+{
+  "name": "web-security",
+  "scripts": {
+    "dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
+    "deploy": "wrangler pages deploy ./pages"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230628.0",
+    "paseto-ts": "^1.4.3",
+    "wrangler": "^3.5.0",
+    "crypto": "^1.0.1",
+    "hono": "^3.4.1",
+    "uncrypto": "^0.1.3"
+  }
+}
