@@ -1,5 +1,5 @@
 import { Context, Handler } from "hono";
-import { otpManager } from "../../../../libs/otpManager";
+import { otpManager } from "../../../libs/otpManager";
 import { HTTPException } from "hono/http-exception";
 
 const demoSecretTime = Date.now();
